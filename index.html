@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Diese Website ist über die Österreichische Band 'Noice'.
+    Noice ist eine 2020 in Wieselburg gegründete Funk/Pop-Band. Ihre stark von Pop beeinflusste
+    Musik vereinigt sich auf spannendste Weise mit Blues, Funk und Jazz-Elementen. Der
+    groovige Sound von Bass, Gitarre und Schlagzeug wird durch ein subtiles Klavier und dem manchmal
+    auch etwas weicherem Gesang abgerundet.">
+    <meta name="keywords" content="Noice, Linz, Österreich, Borg, Musik, Band">
+    <meta name="author" content="Jonas Fröller">
+
+    <meta property="og:site_name" content="NoiceBand">
+    <meta property="og:url" content="noiceband.com">
+    <meta property="og:title" content="home">
+    <meta property="og:image" content="./img/logo.png">
+    <meta property="og:description" content="Diese Website ist über die Österreichische Band 'Noice'.
+    Noice ist eine 2020 in Wieselburg gegründete Funk/Pop-Band. Ihre stark von Pop beeinflusste
+    Musik vereinigt sich auf spannendste Weise mit Blues, Funk und Jazz-Elementen. Der
+    groovige Sound von Bass, Gitarre und Schlagzeug wird durch ein subtiles Klavier und dem manchmal
+    auch etwas weicherem Gesang abgerundet.">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="script.js" defer></script>
+
+    <link rel="icon" type="image/png" href="./img/logo.png">
+    <title>Home</title>
+</head>
+
+<body id="home" onload="timeout()">
+    <div id="loader"></div>
+
+    <section id="body" class="animate-bottom">
+        <header>
+            <nav id="navbar">
+                <div class="logo_small"><a href="#">
+                        <picture>
+                            <source srcset="./img/logo.svg" type="image/svg">
+                            <img src="./img/logo.png" alt="logo">
+                        </picture>
+                    </a></div>
+                <ul class="navbar-list">
+                    <li class="navbar-items"><a class="navbar-link-active" href="#main-jumpto">Home <span
+                                class="material-icons inline-icon">
+                                home
+                            </span></a></li>
+                    <li class="navbar-items"><a class="navbar-link" href="./songs.html">Songs <span
+                                class="material-icons inline-icon">
+                                library_music
+                            </span>
+                        </a></li>
+                    <li class="navbar-items"><a class="navbar-link" href="./gallery.html">Gallery <span
+                                class="material-icons inline-icon">
+                                image
+                            </span>
+                        </a></li>
+                    <li class="navbar-items"><a class="navbar-link" href="./videos.html">Videos <span
+                                class="material-icons inline-icon">
+                                movie
+                            </span>
+                        </a></li>
+                    <li class="navbar-items"><a class="navbar-link" href="./gigdates.html">GigDates <span
+                                class="material-icons inline-icon">
+                                event_note
+                            </span>
+                        </a></li>
+                    <li class="navbar-items"><a class="navbar-link" href="./contact.html">Contact <span
+                                class="material-icons inline-icon">
+                                call
+                            </span></a></li>
+                    <li class="navbar-items"><a class="navbar-link" href="./socials.html">Socials <span
+                                class="material-icons inline-icon">
+                                groups
+                            </span></a></li>
+                    <!--
+                    <li class="navbar-items">
+                        <p class="navbar-link" onclick="darkmode();">Switch to
+                            Darkmode</p>
+                    </li>
+                    -->
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+
+                <section class="home">
+                    <div id="homevid">
+                        <video src="./video/HomeVid.mp4" type="video/mp4" autoplay loop muted preload="auto"
+                            poster="./img/logo.png" style="max-width: 100%!important; height: auto!important;">
+                            Your browser does not support the video tag.
+                        </video>
+
+                        <div id="homescrolldown-box">
+                            <div class="homescrolldown">
+                                <!--<h2>Scroll Down</h2>-->
+                                <a href="#main-jumpto">
+                                    <span class="material-icons">
+                                        expand_more
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <div id="up">
+                    <a href="#home"><span class="material-icons">
+                            arrow_circle_up
+                        </span></a>
+                </div>
+
+                <div id="main-jumpto"></div>
+                <div id="page-content">
+                    <div class="headline">
+                        <div class="headline-left">
+                            <div class="headline-space"></div>
+                            <h2>Wer sind wir?</h2>
+                            <div class="headline-underline"></div>
+                        </div>
+                    </div>
+
+                    <div class="classic-flex-wrap">
+                        <div class="text">
+                            <h2>NOICE!</h2>
+                            <p>Wir sind "<a href="https://www.instagram.com/noice_band/">Noice</a>".
+                                Noice ist eine 2020 in Wieselburg gegründete Funk/Pop-Band. Ihre stark von Pop
+                                beeinflusste
+                                Musik vereinigt sich auf spannendste Weise mit Blues, Funk und Jazz-Elementen. Der
+                                groovige
+                                Sound von Bass, Gitarre und Schlagzeug wird durch ein subtiles Klavier und dem manchmal
+                                auch
+                                etwas weicherem Gesang abgerundet.
+                            </p>
+                        </div>
+                        <div class="slideshow-area">
+                            <div class="slideshow inverted"><img src="./img/Band-Gruppenfoto-3.png" alt=""></div>
+                        </div>
+                    </div>
+
+                    <div id="content-box">
+
+                        <div class="headline">
+                            <div class="headline-mid">
+                                <h2>Mitglieder:</h2>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+
+                        <div id="members">
+                            <div class="member">
+                                <div class="member-img">
+                                    <a href="https://www.instagram.com/haussi2001/"><img src="img/Fabian_Hauss.png"
+                                            alt="Fabian Hauss"></a>
+                                </div>
+                                <div class="member-text">
+                                    <div class="member-name">
+                                        <a href="https://www.instagram.com/haussi2001/">
+                                            <h2>Fabian Hauss</h2>
+                                        </a>
+                                    </div>
+                                    <div class="member-info">
+                                        <p>Gesang [Bandleader]</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-img">
+                                    <a href="https://www.instagram.com/rsarah12/"><img src="img/Sarah_Riedler.png"
+                                            alt="Sarah_Riedler"></a>
+                                </div>
+                                <div class="member-text">
+                                    <div class="member-name">
+                                        <a href="https://www.instagram.com/rsarah12/">
+                                            <h2>Sarah Riedler</h2>
+                                        </a>
+                                    </div>
+                                    <div class="member-info">
+                                        <p>Gesang</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-img">
+                                    <a href="https://www.instagram.com/der_tobi_privat/"><img
+                                            src="img/Tobias_Fröller.png" alt="Tobias Fröller"></a>
+                                </div>
+                                <div class="member-text">
+                                    <div class="member-name">
+                                        <a href="https://www.instagram.com/der_tobi_privat/">
+                                            <h2>Tobias Fröller</h2>
+                                        </a>
+                                    </div>
+                                    <div class="member-info">
+                                        <p>Schlagzeug</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <div class="member-img">
+                                    <a href="https://www.instagram.com/covincendence/"><img src="img/Vincent_Louis.png"
+                                            alt="Vincent Louis"></a>
+                                </div>
+                                <div class="member-text">
+                                    <div class="member-name">
+                                        <a href="https://www.instagram.com/covincendence/">
+                                            <h2>Vincent Louis</h2>
+                                        </a>
+                                    </div>
+                                    <div class="member-info">
+                                        <p>E-Gitarre</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <footer id="footer">
+                    <ul class="footer-list">
+                        <li class="navbar-items">
+                            <p id="copyright"></p>
+                        </li>
+                        <li class="navbar-items"><a class="navbar-link" href="#">Privacy Policy <span
+                                    class="inline-icon material-icons">
+                                    security
+                                </span></a></li>
+                        <li class="navbar-items"><a class="navbar-link" href="#">Terms of Service <span
+                                    class="inline-icon material-icons">
+                                    info
+                                </span>
+                            </a></li>
+                        <li class="navbar-items"><a class="navbar-link" href="mailto:noice.band.business@gmail.com">
+                                Contact <span class="inline-icon material-icons">
+                                    mail_outline </span>
+                            </a>
+                        </li>
+                    </ul>
+                </footer>
+
+            </section>
+
+        </main>
+
+    </section>
+
+</body>
+
+</html>
